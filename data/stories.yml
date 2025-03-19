@@ -1,30 +1,43 @@
 version: "3.1"
 
 stories:
-
-- story: happy path
+- story: Xử lý khi khách hàng phàn nàn
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: customer_complaint
+    - action: utter_apologize
+    - action: utter_ask_for_details
 
-- story: sad path 1
+- story: Đàm phán giá cả
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: price_negotiation
+    - action: utter_price_negotiation
 
-- story: sad path 2
+- story: Hỏi về chất lượng sản phẩm
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: product_quality
+    - action: utter_product_quality
+
+- story: Yêu cầu hoàn tiền
+  steps:
+    - intent: refund_request
+    - action: utter_refund_policy
+
+- story: Hỗ trợ khách hàng
+  steps:
+    - intent: customer_support
+    - action: utter_customer_support
+
+- story: Hỏi về khuyến mãi
+  steps:
+    - intent: promotion_inquiry
+    - action: utter_promotion_details
+
+- story: Kiểm tra tồn kho
+  steps:
+    - intent: stock_availability
+    - action: utter_check_stock
+
+- story: Yêu cầu giảm giá
+  steps:
+    - intent: discount_request
+    - action: utter_discount_policy

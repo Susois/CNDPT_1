@@ -780,13 +780,6 @@ nlu:
     - Shop ơi, làm ăn kiểu này thì đéo ai mua nữa đâu nha shop ơi là shop ơi là shop ơi là shop ơi!
     - Đm, cái này lỗi tùm lum, xài đéo nổi luôn đó nha shop ơi là shop ơi là shop ơi là shop ơi!
     - Chậm ship, hàng lại kém, tức muốn đập mẹ nó luôn đó nha shop ơi là shop ơi là shop ơi là shop!
-
-
-
-
-
-
-
 - intent: price_negotiation
   examples: |
 
@@ -1889,12 +1882,6 @@ nlu:
     - Giảm thêm cho em đi, đắt thế này chịu sao nổi!
     - Đm, mắc vậy thì ai mua, giảm giá đi chị!
     - Bớt chút đi chị, em thích mà đắt quá vl thật!
-
-
-
-
-
-
 - intent: product_quality
   examples: |
     - Hàng này xài lâu có bị xù lông không chị?
@@ -2889,15 +2876,6 @@ nlu:
     - Shop ơi, chất lượng tốt không mà giá cao thế?
     - Hàng này có chịu được nhiệt không, em hỏi tí!
     -
-
-
-
-
-
-
-
-
-
 - intent: refund_request
   examples: |
     - Hoàn tiền cho tôi ngay bây giờ đi!
@@ -3579,9 +3557,6 @@ nlu:
     - Tôi muốn hoàn tiền và một câu trả lời rõ ràng!
     - Chị ơi, em cần tiền hơn cái đồ này, hoàn lại nha!
     - Đùa à
-
-
-
 - intent: customer_support
   examples: |
     - Alo alo, hàng ship đâu rồi mà 3 ngày chưa thấy động tĩnh gì vậy trời?
@@ -4458,9 +4433,6 @@ nlu:
     - Tao cần cái này gấp, mày ship trong sáng nay được không?
     - Cái máy pha cà phê này hỏng, bảo hành ở đâu vậy shop?
     - Hỗ trợ nhiệt tình quá, cảm ơn shop, yêu ghê!
-
-
-
 - intent: promotion_inquiry
   examples: |
     - Shop ơi, có khuyến mãi gì hot hot không, kể nghe với!
@@ -5056,10 +5028,6 @@ nlu:
     - Shop ơi, có chương trình gì cho khách mới không nha!
     - Đù, giá này không giảm thì ai mà mua nổi hả trời?
     - Bạn ơi, có mã giảm giá nào dùng được hôm nay không?
-
-
-
-
 - intent: stock_availability
   examples: |
     - Còn hàng không shop?
@@ -5641,9 +5609,6 @@ nlu:
     - Màu đỏ nhạt còn sẵn không?
     - Size M có hàng để đặt không?
     - Khi nào restock màu vàng
-
-
-
 - intent: discount_request
   examples: |
     - Giảm thêm chút đi shop, để em chốt đơn luôn!
@@ -6120,10 +6085,6 @@ nlu:
     - Giảm giá chút đi chị, em mua làm quà tặng!
     - Có bớt được không, tui đặt hẳn 120 cái đây!
     - Bạn ơi, giảm thêm chút cho mình với, cảm ơn nhiều!
-
-
-
-
 - intent: price_comparison
   examples: |
     - Bên kia bán rẻ hơn, shop có rẻ hơn không?
@@ -6899,10 +6860,6 @@ nlu:
     - Shop ơi, sao không rẻ bằng Lazada vậy, giảm giá đi!
     - Tôi vừa check TikTok, giá mềm hơn, shop giảm thêm không?
     - Giá này cao hơn bên Z, shop có ưu đãi gì không?
-
-
-
-
 - intent: bulk_purchase_inquiry
   examples: |
     - Mua sỉ giá bao nhiêu vậy shop, nói tui nghe!
@@ -7270,8 +7227,6 @@ nlu:
     - Mua nguyên thùng 20000 cái, shop báo giá sỉ giùm!
     - Shop ơi, lấy 111 cái thì tính sao đây nha?
     - Mua 500 cái có ưu đãi không, nói tui nghe thử!
-
-
 - intent: payment_method
   examples: |
     - Tôi muốn thanh toán bằng thẻ tín dụng được không?
@@ -7626,8 +7581,6 @@ nlu:
     - COD mà giao hàng chậm thì tôi không nhận đâu mà!
     - Thanh toán qua ví Big C có được không vậy?
     - Tôi muốn trả bằng thẻ BMO Harris Bank, shop nhận không?
-
-
 - intent: product_authenticity
   examples: |
     - Hàng này chính hãng không shop, nói thật đi!
@@ -8193,8 +8146,6 @@ nlu:
     - Hàng này chính hãng không shop, nói thẳng đi!
     - Có giấy tờ chứng minh nguồn gốc không, báo tui!
     - Chào bạn,
-
-
 - intent: warranty_inquiry
   examples: |
     - Bảo hành bao lâu vậy shop?
@@ -8798,10 +8749,6 @@ nlu:
     - Có bảo hành thì tôi mới tin tưởng đặt hàng trước!
     - Hỏng thì shop có đổi ngay không vậy shop?
     - Bảo hành mà chậm thì tôi không mua lần sau!
-
-
-
-
 - intent: freebie_request
   examples: |
     - Mua cái này có được tặng gì không vậy shop?
@@ -9676,8 +9623,6 @@ nlu:
     - Shop ơi, thêm quà đi, để em còn giới thiệu bạn bè nữa!
     - Có khuyến mãi gì không mà không thấy nói gì hết vậy?
     - Cho xin ít quà với, đừng để tui phải mong
-
-
 - intent: order_cancellation
   examples: |
     - Hủy đơn giúp tôi với, nhanh lên!
@@ -10140,9 +10085,6 @@ nlu:
     - Thôi, hủy đơn đi, tôi thấy không đáng mua lắm đâu thật đâu!
     - Hủy đơn ngay, tôi không thích cách giao hàng của shop đâu thật!
     - Tôi không lấy nữa, hủy đơn giùm nhé!
-
-
-
 - intent: product_usage
   examples: |
     - Cái này dùng thế nào vậy shop?
@@ -10695,9 +10637,6 @@ nlu:
     - Có clip hướng dẫn lắp ráp không shop?
     - Dùng thế nào mới đúng đây shop?
     - Hướng dẫn đâu mà tôi mò hoài không thấy?
-   
-
-
 - intent: greeting
   examples: |
     - Chào shop ơi, hôm nay có gì vui không?
@@ -11603,8 +11542,6 @@ nlu:
     - Chào shop ơi, ngày mới có gì để tui mong chờ không?
     - Hi shop, khỏe không để còn phục vụ khách hàng nha!
     - Chào buổi trưa rực rỡ, shop đã ăn gì ngon chưa vậy?
-
-
 - intent: farewell
   examples: |
     - Thôi bye shop nha, lần sau tính sau.
@@ -12487,8 +12424,6 @@ nlu:
     - Bye shop, em đi ngủ đây, chào nha.
     - Chào shop, em thoát đây, bye bye nha.
     - Hẹn gặp lại nha, cảm ơn vì giá tốt lắm.
-
-
 - intent: health_inquiry
   examples: |
     - Anh/chị khỏe không vậy?
@@ -13127,9 +13062,6 @@ nlu:
     - Shop dạo này thế nào, mọi người ổn chứ?
     - Chị ơi, chị khỏe không, em hỏi chút thôi?
     - Anh/chị bên đó có ổn không...
-
-
-
 - intent: weather_talk
   examples: |
     - Trời nóng quá shop ơi, chịu không nổi luôn!
@@ -14127,8 +14059,6 @@ nlu:
     - Thời tiết nóng ẩm, mệt nha!
     - Nóng quá trời, quạt nha?
     - Mưa dầm vậy, nhanh nha?
-
-
 - intent: social_issue
   examples: |
     - Dịch dạo này căng quá shop ha, bán hàng ổn không?
@@ -14742,8 +14672,6 @@ nlu:
     - Dạo này khó khăn, shop có ổn không vậy?
     - Có gì hay dịp 8/3 không shop ơi?
     - Dịch kéo dài, shop có bán đồ thiết yếu không?
-
-
 - intent: small_talk
   examples: |
     - Shop bán lâu chưa vậy?
