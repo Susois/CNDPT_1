@@ -1,14 +1,54 @@
 version: "3.1"
 
 intents:
-  - customer_complaint
-  - price_negotiation
-  - product_quality
   - refund_request
+  - price_negotiation
+  - small_talk
+  - price_comparison
+  - health_inquiry
+  - weather_talk
+  - social_issue
+  - farewell
+  - product_authenticity
+  - payment_method
+  - product_usage
+  - order_cancellation
+  - bulk_purchase_inquiry
+  - warranty_inquiry
+  - freebie_request
+  - greeting
+  - customer_complaint
+  - product_quality
   - customer_support
   - promotion_inquiry
   - stock_availability
   - discount_request
+
+actions:
+  - utter_iamabot
+  - utter_goodbye
+  - utter_apologize
+  - utter_ask_for_details
+  - utter_price_negotiation
+  - utter_product_quality
+  - utter_refund_policy
+  - utter_customer_support
+  - utter_promotion_details
+  - utter_check_stock
+  - utter_discount_policy
+  - utter_price_comparison
+  - utter_bulk_purchase
+  - utter_payment_method
+  - utter_product_authenticity
+  - utter_warranty_info
+  - utter_freebie_policy
+  - utter_order_cancellation
+  - utter_product_usage
+  - utter_greet
+  - utter_health_response
+  - utter_weather_response
+  - utter_social_issue_response
+  - utter_small_talk
 
 responses:
   utter_iamabot:
@@ -2386,13 +2426,42 @@ responses:
     - text: "Chào chị, chị chỉ cần nhập mã giảm giá trên website tụi em, hoặc dùng VNPay để thanh toán, sẽ được giảm 50k cho đơn từ 600k nhé!"
     - text: "Dạ anh, anh có thể áp mã giảm giá trên app bên em, hoặc quét QR qua Vietcombank để được giảm 10%, siêu tiết kiệm"
 
-actions:
-  - utter_apologize
-  - utter_ask_for_details
-  - utter_price_negotiation
-  - utter_product_quality
-  - utter_refund_policy
-  - utter_customer_support
-  - utter_promotion_details
-  - utter_check_stock
-  - utter_discount_policy
+
+  utter_price_comparison:
+    - text: "Chúng tôi cam kết giá cả cạnh tranh nhất trên thị trường."
+
+  utter_bulk_purchase:
+    - text: "Bạn muốn mua số lượng bao nhiêu? Chúng tôi có chính sách ưu đãi đặc biệt."
+
+  utter_payment_method:
+    - text: "Bạn có thể thanh toán bằng thẻ tín dụng, chuyển khoản hoặc tiền mặt."
+
+  utter_product_authenticity:
+    - text: "Chúng tôi đảm bảo tất cả sản phẩm đều chính hãng."
+
+  utter_warranty_info:
+    - text: "Sản phẩm của chúng tôi có bảo hành 12 tháng."
+
+  utter_freebie_policy:
+    - text: "Chương trình tặng quà chỉ áp dụng cho đơn hàng trên 1 triệu đồng."
+
+  utter_order_cancellation:
+    - text: "Bạn có thể hủy đơn hàng trước khi đơn hàng được giao."
+
+  utter_product_usage:
+    - text: "Bạn có thể tham khảo hướng dẫn sử dụng trên bao bì sản phẩm hoặc trang web của chúng tôi."
+
+  utter_greet:
+    - text: "Xin chào! Tôi có thể giúp gì cho bạn?"
+
+  utter_health_response:
+    - text: "Tôi chỉ là bot, nhưng tôi hy vọng bạn có một ngày tuyệt vời!"
+
+  utter_weather_response:
+    - text: "Bạn muốn hỏi về thời tiết ở đâu?"
+
+  utter_social_issue_response:
+    - text: "Đây là một chủ đề thú vị, bạn muốn nói sâu hơn về điều gì?"
+
+  utter_small_talk:
+    - text: "Chúng ta có thể nói về điều gì khác không?"

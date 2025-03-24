@@ -1,13 +1,48 @@
 version: "3.1"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: Respond to greeting
   steps:
-  - intent: goodbye
+  - intent: greeting
+  - action: utter_greet
+  - action: utter_iamabot
+
+- rule: Respond to farewell
+  steps:
+  - intent: farewell
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Handle refund request
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: refund_request
+  - action: utter_refund_policy
+
+- rule: Handle price negotiation
+  steps:
+  - intent: price_negotiation
+  - action: utter_price_negotiation
+
+- rule: Respond to product quality inquiry
+  steps:
+  - intent: product_quality
+  - action: utter_product_quality
+
+- rule: Handle customer support request
+  steps:
+  - intent: customer_support
+  - action: utter_customer_support
+
+- rule: Respond to promotion inquiry
+  steps:
+  - intent: promotion_inquiry
+  - action: utter_promotion_details
+
+- rule: Check stock availability
+  steps:
+  - intent: stock_availability
+  - action: utter_check_stock
+
+- rule: Respond to discount request
+  steps:
+  - intent: discount_request
+  - action: utter_discount_policy

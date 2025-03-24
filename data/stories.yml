@@ -41,3 +41,76 @@ stories:
   steps:
     - intent: discount_request
     - action: utter_discount_policy
+
+- story: So sánh giá cả
+  steps:
+    - intent: price_comparison
+    - action: utter_price_comparison
+
+- story: Hỏi về mua số lượng lớn
+  steps:
+    - intent: bulk_purchase_inquiry
+    - action: utter_bulk_purchase
+
+- story: Hỏi về phương thức thanh toán
+  steps:
+    - intent: payment_method
+    - action: utter_payment_method
+
+- story: Hỏi về tính xác thực sản phẩm
+  steps:
+    - intent: product_authenticity
+    - action: utter_product_authenticity
+
+- story: Hỏi về bảo hành sản phẩm
+  steps:
+    - intent: warranty_inquiry
+    - action: utter_warranty_info
+
+- story: Yêu cầu sản phẩm miễn phí
+  steps:
+    - intent: freebie_request
+    - action: utter_freebie_policy
+
+- story: Yêu cầu hủy đơn hàng
+  steps:
+    - intent: order_cancellation
+    - action: utter_order_cancellation
+
+- story: Hỏi về cách sử dụng sản phẩm
+  steps:
+    - intent: product_usage
+    - action: utter_product_usage
+
+- story: Chào hỏi
+  steps:
+    - intent: greeting
+    - action: utter_greet
+    - action: utter_iamabot
+
+- story: Tạm biệt khách hàng
+  steps:
+    - intent: farewell
+    - action: utter_goodbye
+
+- story: Hỏi về sức khỏe
+  steps:
+    - intent: health_inquiry
+    - action: utter_health_response
+
+- story: Nói chuyện về thời tiết
+  steps:
+    - intent: weather_talk
+    - action: utter_weather_response
+
+- story: Thảo luận về vấn đề xã hội
+  steps:
+    - intent: social_issue
+    - action: utter_social_issue_response
+
+- story: Đối thoại nhẹ nhàng
+  steps:
+    - intent: small_talk
+    - action: utter_small_talk
+
+  
